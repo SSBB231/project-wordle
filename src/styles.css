@@ -230,3 +230,26 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8;
+  justify-content: center;
+}
+
+.keyboard .cell {
+  font-size: 1rem;
+  width: 8%;
+}
+
+.button.primary {
+  padding: 4 12;
+}
+
+.button.primary:hover {
+  background-color: white;
+  opacity: 0.7;
+  color: black;
+  border-radius: 4;
+}
