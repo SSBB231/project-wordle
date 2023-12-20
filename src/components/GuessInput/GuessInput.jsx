@@ -21,7 +21,7 @@ function GuessInput({ onSubmit }) {
         name="guess-input"
         type="text"
         value={inputText}
-        pattern="\w{5}"
+        pattern="[a-zA-Z]{5}"
         title="Guess must be 5 characters long"
         onChange={(event) => setInputText(event.target.value.toUpperCase())} // input always uppercase
       />
